@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+#idolo {
+  border-width: 1px;    
+  border-style: solid;
+  color: brown; 
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 40%;
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+
+div {
+  padding-top: 14px;
+  font-size: 16px;
+  color: rgb(7, 7, 7); 
+}
+
+
+.item {
+  padding-left: 14px;
+}
+
+.item::before {
+  content: "• ";
+  color: #111111;
+}
+
+h2 {
+  font-size: 25px;
+  color: rgb(249, 8, 8); 
+  font-family: 'Macondo', cursive;
+}
+
+h1 {
+  font-size: 28px;
+  color: rgb(249, 8, 8); 
+  font-family:'Courier New', Courier, monospace;
+
+
+}
+
+.imagem { 
+  width: 95%;
+  border-radius: 10px;
+}
+
+p {
+  padding-right: 5px;
+  padding-left: 1px;
+  font-size: 16px;
+  color: rgb(6, 6, 6); 
+}
+
+
+/*Link não visitado */
+a:link {
+  color: rgb(6, 6, 6);
+  text-decoration: none;
+}
+
+/*Link já visitado*/
+a:visited {
+  color: rgb(248, 5, 5); 
+  text-decoration: none;
+}
+
+/*Quando o mouse passa por cima*/
+a:hover {
+  color: rgb(247, 14, 14);
+  text-decoration: none;
+}
+
+/*Link ativo/selecionado*/
+a:active {
+  color: rgb(60, 0, 255);
+  text-decoration: none;
+}
